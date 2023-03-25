@@ -1,0 +1,39 @@
+{
+    //Appearence
+    //Font
+    "editor.fontSize": 30,
+    "terminal.integrated.fontSize": 30,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    //Icon
+    "workbench.iconTheme": "material-icon-theme",
+    //Editor
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    //
+    "editor.cursorBlinking": "expand",
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "textMateRules": [
+                {
+                    "scope": "meta.function.closure.php",
+                    "settings": {
+                        "foreground": "#FF0000"
+                    }
+                }
+            ]
+        }
+    },
+    "files.trimFinalNewlines": true,
+    "workbench.layoutControl.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
